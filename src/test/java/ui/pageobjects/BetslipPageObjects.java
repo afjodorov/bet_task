@@ -1,4 +1,4 @@
-package pageobjects;
+package ui.pageobjects;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.List;

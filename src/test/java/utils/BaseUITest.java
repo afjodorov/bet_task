@@ -9,12 +9,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import pageobjects.BetslipPageObjects;
-import pageobjects.DepositPageObject;
-import pageobjects.LoginPageObjects;
-import pageobjects.NavBarPageObjects;
-import pageobjects.UpcomingPageObjects;
-import pageobjects.StatementPageObjects;
+import ui.pageobjects.BetslipPageObjects;
+import ui.pageobjects.DepositPageObject;
+import ui.pageobjects.LoginPageObjects;
+import ui.pageobjects.NavBarPageObjects;
+import ui.pageobjects.StatementPageObjects;
+import ui.pageobjects.UpcomingPageObjects;
 
 public abstract class BaseUITest {
     protected WebDriver driver;
